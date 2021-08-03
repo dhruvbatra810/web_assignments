@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hover button</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 18px;
+        color: rgb(18, 179, 207);
+        background-color: black;
+        border: 1px solid rgb(11, 165, 185);
+        transition: 0.4s;
+      }
+      button:hover {
+        transform: scale(1.09);
+        color: rgb(7, 7, 202);
+        border: 1px solid rgb(49, 9, 160);
+        box-shadow: 0 3px 6px rgb(69, 10, 179);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button type="button">Hover</button>
+  </body>
+</html>
